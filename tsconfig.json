@@ -1,0 +1,23 @@
+{
+   "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "scripts/"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "text.ts",
+        "text2.ts"
+
+    ],
+    "lib":
+    ["dom",
+        "es5",
+        "es6",
+        "es2015"
+    ]
+}
